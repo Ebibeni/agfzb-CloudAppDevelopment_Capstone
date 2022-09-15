@@ -1,10 +1,10 @@
   applications:
-  - name: djangoapp
+  - name: capstoneEbibeni
     routes:
       - route: capstoneebibeni.us-south.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
-  - name: djangoapp-nginx
+  - name: capstoneEbibeni-nginx
     routes:
       - route: capstoneebibeni.us-south.cf.appdomain.cloud/static
     memory: 128M
