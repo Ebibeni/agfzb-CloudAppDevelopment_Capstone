@@ -1,11 +1,11 @@
   applications:
-  - name: capstoneEbibeni
+  - name: capstoneebibenifinal
     routes:
-      - route: capstoneebibeni.us-south.cf.appdomain.cloud
+      - route: capstoneebibenifinal.us-south.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
-  - name: capstoneEbibeni-nginx
+  - name: capstoneebibenifinal-nginx
     routes:
-      - route: capstoneebibeni.us-south.cf.appdomain.cloud/static
+      - route: capstoneebibenifinal.us-south.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack

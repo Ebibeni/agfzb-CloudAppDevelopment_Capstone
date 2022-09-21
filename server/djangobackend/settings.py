@@ -27,7 +27,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ["capstoneebibeni.us-south.cf.appdomain.cloud",".localhost", '127.0.0.1']
+ALLOWED_HOSTS = ['capstoneebibenifinal.us-south.cf.appdomain.cloud','localhost']
 
 
 # Application definition
