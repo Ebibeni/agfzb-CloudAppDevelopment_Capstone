@@ -1,11 +1,11 @@
   applications:
-  - name: capstoneebibenifinal
+  - name: ebibenicapstone
     routes:
-      - route: capstoneebibenifinal.us-south.cf.appdomain.cloud
+      - route: ebibenicapstone.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
-  - name: capstoneebibenifinal-nginx
+  - name: ebibenicapstone-nginx
     routes:
-      - route: capstoneebibenifinal.us-south.cf.appdomain.cloud/static
+      - route: ebibenicapstone.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
